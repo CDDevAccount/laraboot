@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController; 
+use App\Http\Controllers\PostController; 
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +26,23 @@ Route::get('/profile', function () {
 Route::post('/profile', function () {
     return view('forms');
 });
+
+
+Route::get('/forms', 'HomeController@index'); 
+
+Route::get('forms', [HomeController::class, 'index']);
+
+Route::get('forms', [PostController::class, 'index']);
+
+Route::resource('home', HomeController::class); 
+
+Route::resource('forms', PostController::class);
+
+
+Route::resource('home', 'App\Http\Controllers\HomeController', ['except' => ['create', 'edit']]);
+
+
+
 
 
 

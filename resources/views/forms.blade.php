@@ -36,6 +36,8 @@
 
     <body class="antialiased">
 
+    
+
 
 
     <div class="container">
@@ -68,7 +70,10 @@
 
 
 
+        <footer class="row">
+        @include('includes.footer')
 
+        </footer>
 
 
     </div>
