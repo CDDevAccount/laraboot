@@ -2,7 +2,10 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
 
-      
+    @extends('layouts.default')
+    @section('content')
+    i am the contact page
+    @stop
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -190,11 +193,11 @@
 
 
         <footer class="row">
-        @include('includes.footer')
+        @include('includes.footer')#
 
         </footer>
 
- 
+
 
 </div>
 
