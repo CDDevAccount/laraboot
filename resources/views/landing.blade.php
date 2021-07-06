@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+
+      
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Rafique Car Dealer site">
-        <meta name="author" content="Rafique">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Laravel</title>
+        <link rel="stylesheet" href={{ asset('public/css/custom.css') }}>
+        <link rel="stylesheet" type="text/css" href="public/css/custom.css">
         <link rel="stylesheet" href={{ asset('css/bootstrap.min.css') }}>
-        <link rel="stylesheet" href={{ asset('css/custom.css')}}>
+      
+
+    
 
         <!-- Fonts 
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -34,108 +39,37 @@
 
     </head>
 
+   
 
-    <body>
+
+    <body class="antialiased">
 
     
+    
 
-    <div class="container">
 
-        <form method ="POST" action="/profile"> 
-            @csrf
+<div class="container">
 
-           
+            <div class="city">
 
-            <label for="title">Post Title</label>
-
-            <input id="title" type="text" class="@error('title') is-invalid @enderror">
-
-            <label for="email">Email address</label>
-
-            <input id="email" type="email" class="@error('email') is-invalid @else is-valid @enderror"> 
-
-            <label for="firstname">First Name</label>
-
-            <input id="firstname" type="text" class="@error('') is-invalid @else is-valid @enderror"> 
-
-            <label for="lastname">Last Name</label>
-
-            <input id="lastname" type="text" class="@error('') is-invalid @else is-valid @enderror"> 
+            <h1>My Heading</h1>
+            <p>This is a paragraph.</p>
             
-             <input type="submit" value="Submit"> 
-
-        </form> 
-
-        <div id ="childcontainer">
-
-<div id="header">
-
-    <h1> CarDealer </h1>
-
-</div>
-
-<div id="content">
-
-
-
-        <div id="nav">
-
-            <h3> Navigation </h3>
-
-            <ul> 
-                <li> <a class="selected href=""></a> Home </li>
-                <li> <a href=""></a> Cars </li>
-                <li> <a href=""></a> Contact</li>  
-
-
-
-            </ul>
-
-        </div>
-
-
-            <div id="main"> 
-                
-                <h2> Home </h2>
-
-                <p> Description</p>
-
-
             </div>
 
-        
-
-</div>
-
-
-<div id="footer"> 
-    Copyright &copy; 2021 
-
-</div>
-
-</div> 
-        
+    <p class="center large">This paragraph refers to two classes.</p>
 
         
 
-
-        
-       
-
- 
-
-       
-
-        
-
-
-        <footer class="top">
+        <footer class="row">
         @include('includes.footer')
 
         </footer>
 
 
-    </div>
+
+</div>
+
 
 
         <script src="{{ asset('js/bootstrap.min.js') }}"></script>
@@ -146,11 +80,10 @@
 
 
 
+      
+ 
 
 
-
-
-        
 
     </body>
 </html>

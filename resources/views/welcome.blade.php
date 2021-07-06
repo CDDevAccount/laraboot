@@ -8,7 +8,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Laravel</title>
+        <link rel="stylesheet" href={{ asset('public/css/custom.css') }}>
+        <link rel="stylesheet" type="text/css" href="public/css/custom.css">
         <link rel="stylesheet" href={{ asset('css/bootstrap.min.css') }}>
+      
 
     
 
@@ -36,12 +39,23 @@
 
     </head>
 
+   
+
 
     <body class="antialiased">
 
+    
+    
 
 
 <div class="container">
+
+<div class="top">
+
+    <h1>My Heading</h1>
+    <p>This is a paragraph.</p>
+
+    </div>
 
         <div class="alert alert-success mt-5" role="alert">
             Boostrap 5 is working!
@@ -58,9 +72,14 @@
 
     </div>
 
+   
+
+    <h1 style="background-color:rgb(209, 209, 240);">...</h1>
+
+
+    <h1 id="header2">My Header</h1>
 
     
-
 
 
 
@@ -176,8 +195,11 @@
             </div>
         </div>
 
+<div class = "" >
 
+        <p class="center large">This paragraph refers to two classes.</p>
 
+</div>
 
 
 

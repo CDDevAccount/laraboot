@@ -19,13 +19,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/profile', function () {
-    return view('forms');
+    // return view('forms');
 });
 
 Route::post('/profile', function () {
-    return view('forms');
-});
+   // return view('forms');
+ });
 
 
 Route::get('/forms', 'HomeController@index'); 
@@ -35,6 +36,8 @@ Route::get('forms', [HomeController::class, 'index']);
 Route::get('forms', [PostController::class, 'index']);
 
 Route::resource('home', HomeController::class); 
+
+Route::resource('landing', LandingController::class); 
 
 Route::resource('forms', PostController::class);
 
