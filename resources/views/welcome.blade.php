@@ -9,9 +9,13 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Laravel</title>
 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href={{ asset('css/custom.css') }}>
         <link rel="stylesheet" href={{ asset('css/bootstrap.min.css.map') }}>
         <link rel="stylesheet" href={{ asset('css/bootstrap.min.css') }}>
+
+
+        
 
 
       
@@ -48,13 +52,18 @@
    
     <body data-bs-spy="scroll" data-bs-target="#navbar-example2">
 
+
+
+
+    
+
     <div class="container">
         
     
 
 
 <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Menu</a>
   <ul class="nav nav-pills">
     <li class="nav-item">
       <a class="nav-link" href="#scrollspyHeading1">First</a>
@@ -74,53 +83,57 @@
   </ul>
 </nav>
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-  <h4 id="scrollspyHeading1">First heading</h4>
-  <p>...</p>
+  <h1 id="scrollspyHeading1" style="text-align: center;"> New Cars</h4>
+  <h3> Wide range of cars </h2>
+  <p> </p>
+
+  
+
 
                     <div class="row">
                             
                             <!-- grids -->
 
-                                <div class="col">
+                                <div class="col shadow p-3 mb-5 bg-body rounded">
                                     <div class="card" style="width: 18rem;">
-                                        <img src="..." class="card-img-top" alt="...">
+                                    <img src="images/coupe.jpg" class="img-fluid" alt="coupe">
                                         <div class="card-body">
-                                        <h5 class="card-title">1</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Coupe</h5>
+                                        <p class="card-text">Describtion</p>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
                                         </div>
                                     </div>
                                 </div>
                                 
-                                <div class="col">
+                                <div class="col shadow p-3 mb-5 bg-body rounded">
                                     <div class="card" style="width: 18rem;">
-                                        <img src="..." class="card-img-top" alt="...">
+                                    <img src="images/saloon.jpg" class="img-fluid" alt="saloon">
                                         <div class="card-body">
-                                        <h5 class="card-title">2</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Saloon</h5>
+                                        <p class="card-text">Describtion.</p>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
                                         </div>
                                     </div>
                                 </div>
                                 
-                                <div class="col">
+                                <div class="col shadow p-3 mb-5 bg-body rounded">
                                     <div class="card" style="width: 18rem;">
-                                        <img src="..." class="card-img-top" alt="...">
+                                    <img src="images/suv.jpg" class="img-fluid" alt="suv">
                                         <div class="card-body">
-                                        <h5 class="card-title">3</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">SUV</h5>
+                                        <p class="card-text">Describtion</p>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
                                         </div>
                                     </div>
                                 </div>
                                 
-                                <div class="col">
+                                <div class="col shadow p-3 mb-5 bg-body rounded">
                                     <div class="card" style="width: 18rem;">
-                                    <img src="..." class="card-img-top" alt="...">
+                                    <img src="images/estate.jpg" class="card-img-top" alt="saloon">
                                     <div class="card-body">
-                                        <h5 class="card-title">4</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Estate</h5>
+                                        <p class="card-text">Describtion.</p>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
                                     </div>
                                     </div>
                                 </div>
@@ -130,26 +143,130 @@
                         </div>
   
 
-  <h4 id="scrollspyHeading2">Second heading</h4>
-  <p>...</p>
+  <h1 id="scrollspyHeading2"style="text-align: center;"> Old Cars</h4>
+  
+  <h3> Wide range of cars </h2>
 
        
 
   <div class="container">
-  <div class="row">
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-  </div>
+    
+      <div class="row row-cols-2">
+
+            <div class="col " style="border:1px solid blue;">
+         
+                                    <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
+                                    <img src="images/coupe.jpg" class="img-fluid" alt="coupe">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: left">Coupe</h5>
+                                       
+                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        </div>
+                                    </div>
+            </div>
+        
+        
+        
+            <div class="col" style="border:1px solid blue;">
+                                  <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem">
+                                    <img src="images/coupe.jpg" class="img-fluid" alt="coupe">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: left">Coupe</h5>
+                                       
+                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        </div>
+                                  </div>
+            </div>
+
+
+        <div class="col" style="border:1px solid blue;">
+                                  <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
+                                    <img src="images/saloon.jpg" class="img-fluid" alt="saloon">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: left">Saloon</h5>
+                                       
+                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        </div>
+                                  </div>
+        </div>
+
+
+        <div class="col" style="border:1px solid blue;">
+                                <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
+                                    <img src="images/saloon.jpg" class="img-fluid" alt="saloon">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: left">Saloon</h5>
+                                       
+                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        </div>
+                                  </div>
+
+        </div>
+
+
+        <div class="col" style="border:1px solid blue;">
+                              <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
+                                    <img src="images/estate.jpg" class="img-fluid" alt="estate">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: left">Estate</h5>
+                                       
+                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        </div>
+                                  </div>
+        </div>
+
+
+
+
+                <div class="col" style="border:1px solid blue;">
+
+                <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
+                                    <img src="images/estate.jpg" class="img-fluid" alt="estate">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: left">Estate</h5>
+                                       
+                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        </div>
+                                  </div>
+                       
+                  </div>
+
+
+
+                <div class="col" style="border:1px solid blue;">
+                          <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
+                                    <img src="images/suv.jpg" class="img-fluid" alt="suv">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: left">SUV</h5>
+                                       
+                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        </div>
+                                  </div>
+
+
+                </div>
+
+
+
+                 <div class="col" style="border:1px solid blue;">
+                            <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
+                                    <img src="images/suv.jpg" class="img-fluid" alt="coupe">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: left">SUV</h5>
+                                       
+                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        </div>
+                                  </div>
+              </div>
+        
+      </div>
+
 </div>
-  <h4 id="scrollspyHeading3">Third heading</h4>
-  <p>...</p>
+
+
+
+  <h1 id="scrollspyHeading3">News </h1>
+  <h2>Recent Posts</h2>
 
                     <div class ="wrapper"> 
 
@@ -168,6 +285,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa libero earum debitis maiores 
                         cupiditate rem excepturi neque mollitia illo iure. Nesciunt doloribus aperiam ea reprehenderit 
                         commodi quasi expedita pariatur? Repellat.
+                        
 
                     </div>
 
@@ -188,108 +306,86 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tenetur.
                     </div>
 
+                    <div>
+                    Information 6    
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tenetur.
+                    </div>
+
 
                     </div> 
 
   <h4 id="scrollspyHeading4">Fourth heading</h4>
   <p>...</p>
-            <div class ="wrapper"> 
 
-            <div class="box1"> 
-            Box 1
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, perferendis.
-            </div>
 
-            <div class="box2"> 
-            Box 2
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, vitae.
-            </div>
-
-            <div class="box3"> 
-            Box 3
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, autem? 
-            </div>
-
-            <div class="box4"> 
-            Box 4
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, cumque. 
-            </div>
-
+            
              
 
   <h4 id="scrollspyHeading5">Fifth heading</h4>
   <p>...</p>
+
+  
+
+    
+
+
+
+
+
+      <div id="main" class="row">
+
+@yield('content') 
+
 </div>
 
 
 
 
-           
+            <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+            @if (Route::has('login'))
+            <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+            @auth
+                <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+            @else
+                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
-
-
-
-
-
-                                <div id="main" class="row">
-
-                                @yield('content') 
-
-                                </div>
-
-
-
-
-                                <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-                                @if (Route::has('login'))
-                                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                                @auth
-                                    <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
-                                @else
-                                    <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
-
-                                    @if (Route::has('register'))
-                                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                    @endif
-                                @endauth
-                                </div>
-                                @endif
-
-
-
-                                </div>
-
-                  
-
-
-       
-        
-
-                                <footer class="row">
-                                    @include('includes.footer')
-
-                                </footer>
-
-        
-
-                                
-                   
-
-
-
-
-
-
+                @if (Route::has('register'))
+                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                @endif
+            @endauth
+            </div>
+            @endif
 
 
 
 </div>
 
 
+
+
+
+
+
+<footer class="row">
+    @include('includes.footer')
+
+</footer>
+
+
+          
+
+
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.js') }}"></script>
 <script src="{{ asset('js/bootstrap.bundle.js') }}"></script>
-<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js'></script> 
+<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
 
 
 
@@ -333,6 +429,7 @@ var scrollSpy = bootstrap.ScrollSpy.getInstance(scrollSpyContentEl) // Returns a
 
 
 </html>
+
 
 
 
