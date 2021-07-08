@@ -95,7 +95,7 @@
                             <!-- grids -->
 
                                 <div class="col shadow p-3 mb-5 bg-body rounded">
-                                    <div class="card" style="width: 18rem;">
+                                    <div class="card">
                                     <img src="images/coupe.jpg" class="img-fluid" alt="coupe">
                                         <div class="card-body">
                                         <h5 class="card-title">Coupe</h5>
@@ -106,7 +106,7 @@
                                 </div>
                                 
                                 <div class="col shadow p-3 mb-5 bg-body rounded">
-                                    <div class="card" style="width: 18rem;">
+                                    <div class="card">
                                     <img src="images/saloon.jpg" class="img-fluid" alt="saloon">
                                         <div class="card-body">
                                         <h5 class="card-title">Saloon</h5>
@@ -117,7 +117,7 @@
                                 </div>
                                 
                                 <div class="col shadow p-3 mb-5 bg-body rounded">
-                                    <div class="card" style="width: 18rem;">
+                                    <div class="card">
                                     <img src="images/suv.jpg" class="img-fluid" alt="suv">
                                         <div class="card-body">
                                         <h5 class="card-title">SUV</h5>
@@ -128,8 +128,8 @@
                                 </div>
                                 
                                 <div class="col shadow p-3 mb-5 bg-body rounded">
-                                    <div class="card" style="width: 18rem;">
-                                    <img src="images/estate.jpg" class="card-img-top" alt="saloon">
+                                    <div class="card">
+                                    <img src="images/estate.jpg" class="img-fluid" alt="saloon">
                                     <div class="card-body">
                                         <h5 class="card-title">Estate</h5>
                                         <p class="card-text">Describtion.</p>
@@ -276,16 +276,21 @@
                         Information
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, incidunt.
 
+                        <div class = "button">
+                        <a href="#" class="btn btn-primary">View Post</a>
+                        </div>
+                        
+
                     </div>
 
 
                     <div> 
 
                         Information 2
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa libero earum debitis maiores 
-                        cupiditate rem excepturi neque mollitia illo iure. Nesciunt doloribus aperiam ea reprehenderit 
-                        commodi quasi expedita pariatur? Repellat.
-                        
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ipsum?.
+                        <div class = "button">
+                        <a href="#" class="btn btn-primary">View Post</a>
+                        </div>
 
                     </div>
 
@@ -294,21 +299,33 @@
                     <div>
                     Information 3    
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tenetur.
+                    <div class = "button">
+                        <a href="#" class="btn btn-primary">View Post</a>
+                        </div>
                     </div>
 
                     <div>
                     Information 4    
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tenetur.
+                    <div class = "button">
+                        <a href="#" class="btn btn-primary">View Post</a>
+                        </div>
                     </div>
 
                     <div>
                     Information 5    
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tenetur.
+                    <div class = "button">
+                        <a href="#" class="btn btn-primary">View Post</a>
+                        </div>
                     </div>
 
                     <div>
                     Information 6    
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tenetur.
+                    <div class = "button">
+                        <a href="#" class="btn btn-primary">View Post</a>
+                        </div>
                     </div>
 
 
@@ -316,6 +333,26 @@
 
   <h4 id="scrollspyHeading4">Fourth heading</h4>
   <p>...</p>
+
+  <div class="container">
+
+      <div class="row">
+        <div class="col-4">
+          Column
+        
+        </div>
+        <div class="col">
+          Column
+        </div>
+        <div class="col">
+          Column
+        </div>
+        <div class="col">
+          Column
+        </div>
+      </div>
+
+</div>
 
 
             
