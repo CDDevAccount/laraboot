@@ -100,7 +100,7 @@
                                         <div class="card-body">
                                         <h5 class="card-title">Coupe</h5>
                                         <p class="card-text">Describtion</p>
-                                        <a href="#" class="btn btn-primary">View Cars</a>
+                                        <a href="#" class="btn btn-primary" style="align-items: center;">View Cars</a>
                                         </div>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@
                                     <img src="images/saloon.jpg" class="img-fluid" alt="saloon">
                                         <div class="card-body">
                                         <h5 class="card-title">Saloon</h5>
-                                        <p class="card-text">Describtion.</p>
+                                        <p class="card-text">Describtion</p>
                                         <a href="#" class="btn btn-primary">View Cars</a>
                                         </div>
                                     </div>
@@ -132,7 +132,7 @@
                                     <img src="images/estate.jpg" class="img-fluid" alt="saloon">
                                     <div class="card-body">
                                         <h5 class="card-title">Estate</h5>
-                                        <p class="card-text">Describtion.</p>
+                                        <p class="card-text">Describtion</p>
                                         <a href="#" class="btn btn-primary">View Cars</a>
                                     </div>
                                     </div>
@@ -155,64 +155,61 @@
 
             <div class="col " style="border:1px solid blue;">
          
-                                    <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
+                                <div class="card">
                                     <img src="images/coupe.jpg" class="img-fluid" alt="coupe">
                                         <div class="card-body">
-                                        <h5 class="card-title" style="text-align: left">Coupe</h5>
-                                       
-                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        <h5 class="card-title">Coupe</h5>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
                                         </div>
-                                    </div>
+                                  </div>
             </div>
         
         
         
             <div class="col" style="border:1px solid blue;">
-                                  <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem">
+                                <div class="card">
                                     <img src="images/coupe.jpg" class="img-fluid" alt="coupe">
                                         <div class="card-body">
-                                        <h5 class="card-title" style="text-align: left">Coupe</h5>
-                                       
-                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        <h5 class="card-title">Coupe</h5>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
                                         </div>
-                                  </div>
+                                    </div>
             </div>
 
 
         <div class="col" style="border:1px solid blue;">
-                                  <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
+                            <div class="card">
                                     <img src="images/saloon.jpg" class="img-fluid" alt="saloon">
                                         <div class="card-body">
-                                        <h5 class="card-title" style="text-align: left">Saloon</h5>
-                                       
-                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        <h5 class="card-title">Saloon</h5>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
                                         </div>
-                                  </div>
+                                </div>
         </div>
 
 
         <div class="col" style="border:1px solid blue;">
-                                <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
+                                <div class="card">
                                     <img src="images/saloon.jpg" class="img-fluid" alt="saloon">
                                         <div class="card-body">
-                                        <h5 class="card-title" style="text-align: left">Saloon</h5>
-                                       
-                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        <h5 class="card-title">Saloon</h5>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
                                         </div>
-                                  </div>
+                                    </div>
 
         </div>
 
 
         <div class="col" style="border:1px solid blue;">
-                              <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
-                                    <img src="images/estate.jpg" class="img-fluid" alt="estate">
-                                        <div class="card-body">
-                                        <h5 class="card-title" style="text-align: left">Estate</h5>
-                                       
-                                        <a href="#" class="btn btn-primary">View Car</a>
-                                        </div>
-                                  </div>
+
+                              <div class="card">
+                                    <img src="images/estate.jpg" class="img-fluid" alt="saloon">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Estate</h5>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
+                                    </div>
+                                </div>
+                            
         </div>
 
 
@@ -220,28 +217,26 @@
 
                 <div class="col" style="border:1px solid blue;">
 
-                <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
-                                    <img src="images/estate.jpg" class="img-fluid" alt="estate">
-                                        <div class="card-body">
-                                        <h5 class="card-title" style="text-align: left">Estate</h5>
-                                       
-                                        <a href="#" class="btn btn-primary">View Car</a>
-                                        </div>
-                                  </div>
+                              <div class="card">
+                                    <img src="images/estate.jpg" class="img-fluid" alt="saloon">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Estate</h5>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
+                                    </div>
+                                </div>
                        
                   </div>
 
 
 
                 <div class="col" style="border:1px solid blue;">
-                          <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
+                                <div class="card">
                                     <img src="images/suv.jpg" class="img-fluid" alt="suv">
                                         <div class="card-body">
-                                        <h5 class="card-title" style="text-align: left">SUV</h5>
-                                       
-                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        <h5 class="card-title">SUV</h5>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
                                         </div>
-                                  </div>
+                                    </div>
 
 
                 </div>
@@ -249,14 +244,15 @@
 
 
                  <div class="col" style="border:1px solid blue;">
-                            <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 40rem;">
-                                    <img src="images/suv.jpg" class="img-fluid" alt="coupe">
+                                <div class="card">
+                                    <img src="images/suv.jpg" class="img-fluid" alt="suv">
                                         <div class="card-body">
-                                        <h5 class="card-title" style="text-align: left">SUV</h5>
-                                       
-                                        <a href="#" class="btn btn-primary">View Car</a>
+                                        <h5 class="card-title">SUV</h5>
+                                        <a href="#" class="btn btn-primary">View Cars</a>
                                         </div>
-                                  </div>
+                                  </div>              
+
+
               </div>
         
       </div>
@@ -298,7 +294,7 @@
                         
                     <div>
                     Information 3    
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tenetur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ipsum?.
                     <div class = "button">
                         <a href="#" class="btn btn-primary">View Post</a>
                         </div>
@@ -328,8 +324,12 @@
                         </div>
                     </div>
 
+                 
+
 
                     </div> 
+
+                    
 
   <h4 id="scrollspyHeading4">Fourth heading</h4>
   <p>...</p>

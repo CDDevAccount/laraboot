@@ -17,8 +17,6 @@ body {
   grid-column-gap: 1em;
   grid-row-gap:1em; 
   grid-auto-rows: minmax(100px, auto); 
-  justify-items:stretch; 
-  align-items:stretch; 
   grid-column:3;
   grid-row:1/3;
   border:1px solid #d1d1f0;
@@ -33,7 +31,6 @@ body {
 }
 
 .wrapper > div{
- padding:1em; 
  background:#d1d1f0;
  box-shadow: 5px 5px 5px #2e3192;
  display: grid;
@@ -41,10 +38,7 @@ body {
  grid-column-gap: 1em;
  grid-row-gap:1em; 
  grid-auto-rows: minmax(100px, auto); 
- justify-items:stretch; 
- align-items:stretch; 
  border:1px solid #d1d1f0;
- height: 300px; 
 
 }
 
@@ -95,9 +89,7 @@ body {
 */
 
 .button{
-  margin: 50;
-  bottom: 50%;
-  text-align: center;
+text-align: center;
  
   
 
